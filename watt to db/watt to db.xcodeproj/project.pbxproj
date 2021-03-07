@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBF0983D25E366400006F06C /* watt_to_dbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0983C25E366400006F06C /* watt_to_dbApp.swift */; };
+		BBF0983F25E366400006F06C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0983E25E366400006F06C /* ContentView.swift */; };
+		BBF0984125E366410006F06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF0984025E366410006F06C /* Assets.xcassets */; };
+		BBF0984425E366410006F06C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF0984325E366410006F06C /* Preview Assets.xcassets */; };
+		BBF0984F25E366410006F06C /* watt_to_dbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0984E25E366410006F06C /* watt_to_dbTests.swift */; };
+		BBF0985A25E366410006F06C /* watt_to_dbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0985925E366410006F06C /* watt_to_dbUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBF0984B25E366410006F06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBF0983125E366400006F06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBF0983825E366400006F06C;
+			remoteInfo = "watt to db";
+		};
+		BBF0985625E366410006F06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBF0983125E366400006F06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBF0983825E366400006F06C;
+			remoteInfo = "watt to db";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBF0983925E366400006F06C /* watt to db.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watt to db.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF0983C25E366400006F06C /* watt_to_dbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watt_to_dbApp.swift; sourceTree = "<group>"; };
+		BBF0983E25E366400006F06C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBF0984025E366410006F06C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBF0984325E366410006F06C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBF0984525E366410006F06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF0984A25E366410006F06C /* watt to dbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watt to dbTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF0984E25E366410006F06C /* watt_to_dbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watt_to_dbTests.swift; sourceTree = "<group>"; };
+		BBF0985025E366410006F06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF0985525E366410006F06C /* watt to dbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watt to dbUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF0985925E366410006F06C /* watt_to_dbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watt_to_dbUITests.swift; sourceTree = "<group>"; };
+		BBF0985B25E366410006F06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF0983625E366400006F06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF0984725E366410006F06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF0985225E366410006F06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBF0983025E366400006F06C = {
+			isa = PBXGroup;
+			children = (
+				BBF0983B25E366400006F06C /* watt to db */,
+				BBF0984D25E366410006F06C /* watt to dbTests */,
+				BBF0985825E366410006F06C /* watt to dbUITests */,
+				BBF0983A25E366400006F06C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF0983A25E366400006F06C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF0983925E366400006F06C /* watt to db.app */,
+				BBF0984A25E366410006F06C /* watt to dbTests.xctest */,
+				BBF0985525E366410006F06C /* watt to dbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF0983B25E366400006F06C /* watt to db */ = {
+			isa = PBXGroup;
+			children = (
+				BBF0983C25E366400006F06C /* watt_to_dbApp.swift */,
+				BBF0983E25E366400006F06C /* ContentView.swift */,
+				BBF0984025E366410006F06C /* Assets.xcassets */,
+				BBF0984525E366410006F06C /* Info.plist */,
+				BBF0984225E366410006F06C /* Preview Content */,
+			);
+			path = "watt to db";
+			sourceTree = "<group>";
+		};
+		BBF0984225E366410006F06C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBF0984325E366410006F06C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBF0984D25E366410006F06C /* watt to dbTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBF0984E25E366410006F06C /* watt_to_dbTests.swift */,
+				BBF0985025E366410006F06C /* Info.plist */,
+			);
+			path = "watt to dbTests";
+			sourceTree = "<group>";
+		};
+		BBF0985825E366410006F06C /* watt to dbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBF0985925E366410006F06C /* watt_to_dbUITests.swift */,
+				BBF0985B25E366410006F06C /* Info.plist */,
+			);
+			path = "watt to dbUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF0983825E366400006F06C /* watt to db */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF0985E25E366410006F06C /* Build configuration list for PBXNativeTarget "watt to db" */;
+			buildPhases = (
+				BBF0983525E366400006F06C /* Sources */,
+				BBF0983625E366400006F06C /* Frameworks */,
+				BBF0983725E366400006F06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watt to db";
+			productName = "watt to db";
+			productReference = BBF0983925E366400006F06C /* watt to db.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBF0984925E366410006F06C /* watt to dbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF0986125E366410006F06C /* Build configuration list for PBXNativeTarget "watt to dbTests" */;
+			buildPhases = (
+				BBF0984625E366410006F06C /* Sources */,
+				BBF0984725E366410006F06C /* Frameworks */,
+				BBF0984825E366410006F06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBF0984C25E366410006F06C /* PBXTargetDependency */,
+			);
+			name = "watt to dbTests";
+			productName = "watt to dbTests";
+			productReference = BBF0984A25E366410006F06C /* watt to dbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBF0985425E366410006F06C /* watt to dbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF0986425E366410006F06C /* Build configuration list for PBXNativeTarget "watt to dbUITests" */;
+			buildPhases = (
+				BBF0985125E366410006F06C /* Sources */,
+				BBF0985225E366410006F06C /* Frameworks */,
+				BBF0985325E366410006F06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBF0985725E366410006F06C /* PBXTargetDependency */,
+			);
+			name = "watt to dbUITests";
+			productName = "watt to dbUITests";
+			productReference = BBF0985525E366410006F06C /* watt to dbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF0983125E366400006F06C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BBF0983825E366400006F06C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BBF0984925E366410006F06C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BBF0983825E366400006F06C;
+					};
+					BBF0985425E366410006F06C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BBF0983825E366400006F06C;
+					};
+				};
+			};
+			buildConfigurationList = BBF0983425E366400006F06C /* Build configuration list for PBXProject "watt to db" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBF0983025E366400006F06C;
+			productRefGroup = BBF0983A25E366400006F06C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF0983825E366400006F06C /* watt to db */,
+				BBF0984925E366410006F06C /* watt to dbTests */,
+				BBF0985425E366410006F06C /* watt to dbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF0983725E366400006F06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF0984425E366410006F06C /* Preview Assets.xcassets in Resources */,
+				BBF0984125E366410006F06C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF0984825E366410006F06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF0985325E366410006F06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF0983525E366400006F06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF0983F25E366400006F06C /* ContentView.swift in Sources */,
+				BBF0983D25E366400006F06C /* watt_to_dbApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF0984625E366410006F06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF0984F25E366410006F06C /* watt_to_dbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF0985125E366410006F06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF0985A25E366410006F06C /* watt_to_dbUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBF0984C25E366410006F06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBF0983825E366400006F06C /* watt to db */;
+			targetProxy = BBF0984B25E366410006F06C /* PBXContainerItemProxy */;
+		};
+		BBF0985725E366410006F06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBF0983825E366400006F06C /* watt to db */;
+			targetProxy = BBF0985625E366410006F06C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBF0985C25E366410006F06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBF0985D25E366410006F06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBF0985F25E366410006F06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watt to db/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watt to db/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.watt-to-db";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBF0986025E366410006F06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watt to db/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watt to db/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.watt-to-db";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBF0986225E366410006F06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "watt to dbTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.watt-to-dbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watt to db.app/watt to db";
+			};
+			name = Debug;
+		};
+		BBF0986325E366410006F06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "watt to dbTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.watt-to-dbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watt to db.app/watt to db";
+			};
+			name = Release;
+		};
+		BBF0986525E366410006F06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "watt to dbUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.watt-to-dbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "watt to db";
+			};
+			name = Debug;
+		};
+		BBF0986625E366410006F06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "watt to dbUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.watt-to-dbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "watt to db";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF0983425E366400006F06C /* Build configuration list for PBXProject "watt to db" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF0985C25E366410006F06C /* Debug */,
+				BBF0985D25E366410006F06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF0985E25E366410006F06C /* Build configuration list for PBXNativeTarget "watt to db" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF0985F25E366410006F06C /* Debug */,
+				BBF0986025E366410006F06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF0986125E366410006F06C /* Build configuration list for PBXNativeTarget "watt to dbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF0986225E366410006F06C /* Debug */,
+				BBF0986325E366410006F06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF0986425E366410006F06C /* Build configuration list for PBXNativeTarget "watt to dbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF0986525E366410006F06C /* Debug */,
+				BBF0986625E366410006F06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF0983125E366400006F06C /* Project object */;
+}
